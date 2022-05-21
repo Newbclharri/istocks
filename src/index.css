@@ -11,10 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.App{
+  text-align: center;
+}
 
 *{
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .nav{
   display: flex;
@@ -26,4 +28,14 @@ code {
 .nav a{
   color: white;
   text-decoration: none;
+}
+
+a{
+  width: fit-content;
+}
+
+.stock-link{
+  display: block;
+  margin: 10px auto;
+  margin-bottom: 10px;
 }

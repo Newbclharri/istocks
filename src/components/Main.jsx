@@ -8,11 +8,10 @@ import stocks from "../data";
 export default function Main({text}) {
     return(
         <div>
-            <h1>{text}</h1>
             <Routes>
-                <Route path="/" element={<Home/>}/>
+                <Route exact path="/" element={<Home/>}/>
                 <Route path="/about" element={<About/>}/>
-                <Route path="/stocks/:symbol" element={<Stock />}/>
+                <Route path="/stock/:symbol" element={<Stock stocks={stocks}/>}/>
                 <Route path="/stocks" element={<Dashboard stocks={stocks}/>}/>                  
             </Routes>
         </div>
