@@ -1,3 +1,13 @@
+# Component Hierarchy Diagram
+[Diagram](https://docs.google.com/drawings/d/1ZsHZ56HhvXr6KrKhE9MoD9-KKkxu0x0YzUNWh8_RzX8/edit?usp=sharing)
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
